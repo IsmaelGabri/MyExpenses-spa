@@ -1,0 +1,17 @@
+.graph{
+    background-color: #EDF3FB;
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    max-width: 1000px;
+    position: relative;
+    left: 380px;
+    top: 70px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bouble{
+    position: relative;
+    margin-left: 110px;
+}
