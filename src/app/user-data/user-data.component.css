@@ -1,0 +1,10 @@
+.data-expenses{
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 380px;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: #EDF3FB;
+    min-height: 365px;
+}

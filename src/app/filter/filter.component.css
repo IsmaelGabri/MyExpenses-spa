@@ -1,0 +1,10 @@
+.filter{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: 380px;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: #EDF3FB;
+    min-height: 65px;
+}
