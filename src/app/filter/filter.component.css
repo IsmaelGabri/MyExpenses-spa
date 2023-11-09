@@ -5,6 +5,7 @@
     left: 380px;
     max-width: 1000px;
     border-radius: 10px;
-    background-color: #EDF3FB;
+    background-color: #ffffff;
     min-height: 65px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }

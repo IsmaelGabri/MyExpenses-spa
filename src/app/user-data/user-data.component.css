@@ -5,8 +5,7 @@
     left: 380px;
     max-width: 1000px;
     border-radius: 10px;
-    background-color: #EDF3FB;
-    min-height: 365px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .header{
@@ -16,4 +15,15 @@
 
 .lista{
     text-align: center;
+}
+
+.botao-acao{
+    margin-right: 5px;
+    height: 25px;
+}
+
+.botoes{
+    position: relative;
+    right: 7px;
+    max-height: 10px;
 }
