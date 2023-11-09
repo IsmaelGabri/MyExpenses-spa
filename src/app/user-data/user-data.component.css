@@ -8,3 +8,12 @@
     background-color: #EDF3FB;
     min-height: 365px;
 }
+
+.header{
+    max-height: 60px;
+    min-width: 1000px;
+}
+
+.lista{
+    text-align: center;
+}
