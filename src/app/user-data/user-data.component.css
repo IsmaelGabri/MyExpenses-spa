@@ -20,6 +20,7 @@
 .botao-acao{
     margin-right: 5px;
     height: 25px;
+    margin-bottom: 20px;
 }
 
 .botoes{
@@ -33,4 +34,11 @@
     left: 1390px;
     top: 535px;
     border-radius: 20px;
+}
+
+.botao-concluido{
+    position: relative;
+    border-radius: 20px;
+    right: 815px;
+    bottom: 9px;
 }
