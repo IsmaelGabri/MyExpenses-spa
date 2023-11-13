@@ -1,0 +1,13 @@
+.graph{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    max-width: 1000px;
+    position: relative;
+    left: 380px;
+    top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

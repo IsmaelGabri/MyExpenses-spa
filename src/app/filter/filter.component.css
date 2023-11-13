@@ -1,0 +1,19 @@
+.filter{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: 380px;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    min-height: 65px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.title{
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    
+}

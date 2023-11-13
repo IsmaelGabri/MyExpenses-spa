@@ -1,0 +1,44 @@
+.data-expenses{
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 380px;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.header{
+    max-height: 60px;
+    min-width: 1000px;
+}
+
+.lista{
+    text-align: center;
+}
+
+.botao-acao{
+    margin-right: 5px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.botoes{
+    position: relative;
+    right: 7px;
+    max-height: 10px;
+}
+
+.add-item{
+    position: fixed;
+    left: 1390px;
+    top: 535px;
+    border-radius: 20px;
+}
+
+.botao-concluido{
+    position: relative;
+    border-radius: 20px;
+    right: 815px;
+    bottom: 9px;
+}
