@@ -42,3 +42,12 @@
     right: 815px;
     bottom: 9px;
 }
+
+.bx{
+    font-size: large;
+}
+
+.actions{
+    position: relative;
+    bottom: 4px;
+}
