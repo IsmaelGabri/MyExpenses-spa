@@ -9,3 +9,11 @@
     min-height: 65px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.title{
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    
+}

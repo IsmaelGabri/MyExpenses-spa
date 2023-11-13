@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { GraphComponent } from './graph/graph.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { FilterComponent } from './filter/filter.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FilterComponent } from './filter/filter.component';
     NavBarComponent,
     GraphComponent,
     UserDataComponent,
-    FilterComponent
+    FilterComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,

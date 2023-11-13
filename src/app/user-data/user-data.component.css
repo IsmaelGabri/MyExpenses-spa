@@ -27,3 +27,10 @@
     right: 7px;
     max-height: 10px;
 }
+
+.add-item{
+    position: fixed;
+    left: 1390px;
+    top: 535px;
+    border-radius: 20px;
+}
