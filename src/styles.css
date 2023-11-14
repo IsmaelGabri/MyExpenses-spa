@@ -4,4 +4,7 @@ html, body{
 
 .background{
     background-color: #EDF3FB;
+    height: 100%;
 }
+body { height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
