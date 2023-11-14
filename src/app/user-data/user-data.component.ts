@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { AddItemComponent } from '../add-item/add-item.component';
 
 @Component({
   selector: 'app-user-data',
@@ -7,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserDataComponent implements OnInit {
 
+  constructor(private dialog: MatDialog) {}
+
   cursos: string[] = [""]
 
   ngOnInit(): void {
     
   }
 
+  onCreate(){
+    this.dialog.open(AddItemComponent);
+  }
 }
