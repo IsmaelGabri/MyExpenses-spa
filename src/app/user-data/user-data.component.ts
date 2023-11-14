@@ -13,11 +13,14 @@ export class UserDataComponent implements OnInit {
 
   cursos: string[] = [""]
 
+   onCreate(){
+    this.dialog.open(AddItemComponent, {
+      width: '500px',
+      height: '290px'
+    });
+   }
+
   ngOnInit(): void {
     
-  }
-
-  onCreate(){
-    this.dialog.open(AddItemComponent);
   }
 }
