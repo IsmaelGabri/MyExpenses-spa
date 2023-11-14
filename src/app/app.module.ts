@@ -25,18 +25,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UserDataComponent,
     FilterComponent,
     PaginationComponent,
-    AddItemComponent,
-    MatButtonModule,
-    MatIconModule,
-    MatFormFieldModule,
-    MatInputModule,
-    FormsModule
+    AddItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatDialogModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
