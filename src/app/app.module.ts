@@ -5,7 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule} from '@angular/material/icon';
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule} from '@angular/material/input';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +16,9 @@ import { FilterComponent } from './filter/filter.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { AddItemComponent } from './add-item/add-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponentComponent } from './login-component/login-component.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UserDataComponent,
     FilterComponent,
     PaginationComponent,
-    AddItemComponent
+    AddItemComponent,
+    LoginComponentComponent,
+    HomePageComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +42,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

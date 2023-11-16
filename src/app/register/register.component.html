@@ -1,0 +1,62 @@
+<div class="content">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MyExpenses</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gráficos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+
+
+<form class="add-item-form" [formGroup]="loginForm" (submit)="submitLogin()">
+    <h3 class="form-title">Criar conta</h3>
+    <div class="row mb-3">
+      
+      <div class="">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" formControlName="firstName">
+        </div>
+      </div>
+
+      <div class="">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Sobrenome</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" formControlName="lastName">
+        </div>
+      </div>
+
+      <div class="">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" formControlName="email">
+      </div>
+      <div class="mensagem-erro" *ngIf="loginForm.get('email')?.errors?.['required'] && loginForm.get('email')?.touched">
+        Campo Obrigatorio
+      </div>
+      <div class="mensagem-erro" *ngIf="loginForm.get('email')?.errors?.['email'] && loginForm.get('email')?.touched">
+        Email nao é válido
+      </div>
+      </div>
+    </div>
+    <fieldset class="row mb-3">
+      <div class="col-sm-10">
+      </div>
+    </fieldset>
+    <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Sign in</button>
+  </form>
