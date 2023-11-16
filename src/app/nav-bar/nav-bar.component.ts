@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class NavBarComponent {
 
 }
+
+interface User{
+  FirstName?: string;
+  LastName?: string;
+  Email?: string
+}

@@ -2,7 +2,7 @@
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    max-height: 300px;
+    max-height: 400px;
     max-width: 1000px;
     position: relative;
     left: 380px;
@@ -10,4 +10,17 @@
     border-radius: 10px;
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.first{
+    position: relative;
+    padding: 10px;
+    right: 30px;
+    width:600px;
+}
+
+.second{
+    position: relative;
+    padding: 10px;
+    left: 20px;
 }

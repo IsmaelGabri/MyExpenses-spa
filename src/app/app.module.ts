@@ -16,6 +16,9 @@ import { FilterComponent } from './filter/filter.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { AddItemComponent } from './add-item/add-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponentComponent } from './login-component/login-component.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UserDataComponent,
     FilterComponent,
     PaginationComponent,
-    AddItemComponent
+    AddItemComponent,
+    LoginComponentComponent,
+    HomePageComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
